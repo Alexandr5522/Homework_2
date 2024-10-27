@@ -10,6 +10,8 @@ def one_window():
 field = one_window()
 print('Первое поле: ', field)  # выпадает случайное число от 3 до 20
 
+num = int(input('Введите число из первого поля: '))
+
 
 def get_password():
     password = ""
