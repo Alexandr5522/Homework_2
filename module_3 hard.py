@@ -4,8 +4,9 @@ data_structure = [
     (6, {'cube': 7, 'drum': 8}),
     "Hello",
     ((), [{(2, 'Urban', ('Urban2', 35))}])
-     ]
-# Создаем функцию подсчета суммы всех чисел и длин всех строк
+    ]
+
+
 def calculate_structure_sum(data_structure):
     sum = 0
     if isinstance(data_structure, int):  # Проверяем содержаться ли в data_structure типы int
